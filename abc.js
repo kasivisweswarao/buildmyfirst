@@ -366,11 +366,16 @@ canvas {
 .slot.exit-webxr-ar-button {
   pointer-events: none;
 }
+.slot.exit-webxr-ar-button1 {
+  pointer-events: none;
+}
 
 .slot.exit-webxr-ar-button:not(.enabled) {
   display: none;
 }
-
+.slot.exit-webxr-ar-button1:not(.enabled) {
+  display: none;
+}
 #default-exit-webxr-ar-button {
   display: flex;
   align-items: center;
@@ -516,14 +521,17 @@ canvas {
         </div>
       </slot>
     </div>
-
+          
     <div class="slot exit-webxr-ar-button">
       <slot name="exit-webxr-ar-button">
         <a id="default-exit-webxr-ar-button" part="default-exit-webxr-ar-button"
-        <b id="default-exit-webxr-ar-button1" part="default-exit-webxr-ar-button1"
             tabindex="3"
             aria-label="Exit AR"
             aria-hidden="true">
+        <a id="default-exit-webxr-ar-button" part="default-exit-webxr-ar-button"
+            tabindex="3"
+            aria-label="Exit AR"
+            aria-hidden="true">    
             
             
           ${Kl`
