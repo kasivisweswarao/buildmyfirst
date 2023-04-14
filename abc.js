@@ -326,7 +326,7 @@ canvas {
 
 #default-ar-button {
   position: absolute;
-  bottom: 80px;
+  bottom: 16px;
   right: 16px;
   transform: scale(var(--ar-button-scale, 1));
   transform-origin: bottom right;
