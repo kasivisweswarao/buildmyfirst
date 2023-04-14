@@ -326,7 +326,7 @@ canvas {
 
 #default-ar-button {
   position: absolute;
-  bottom: 16px;
+  bottom: 80px;
   right: 16px;
   transform: scale(var(--ar-button-scale, 1));
   transform-origin: bottom right;
@@ -452,7 +452,7 @@ canvas {
 
   <div class="slot1 ar-button1">
     <slot name="ar-button1">
-      <a id="default-ar-button" part="default-ar-button" class="fab1"
+      <a id="default-ar-button1" part="default-ar-button1" class="fab1"
           tabindex="2"
           aria-label="View in your space">
         ${Hl`
