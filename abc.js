@@ -393,9 +393,9 @@ canvas {
   justify-content: center;
   position: absolute;
   top: env(safe-area-inset-top, 16px);
-  right: 10px;
-  width: 40px;
-  height: 40px;
+  right: 0px;
+  width: 80px;
+  height: 80px;
   box-sizing: border-box;
 }
 #default-exit-webxr-ar-button > svg {
