@@ -528,7 +528,7 @@ canvas {
             tabindex="3"
             aria-label="Exit AR"
             aria-hidden="true">
-        <a id="default-exit-webxr-ar-button" part="default-exit-webxr-ar-button1"
+        <a id="default-exit-webxr-ar-button1" part="default-exit-webxr-ar-button1"
             tabindex="3"
             aria-label="Exit AR"
             aria-hidden="true">    
