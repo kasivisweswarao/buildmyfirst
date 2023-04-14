@@ -306,6 +306,13 @@ canvas {
   transform: scale(var(--ar-button-scale, 1));
   transform-origin: bottom right;
 }
+#default-ar-button1 {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  transform: scale(var(--ar-button-scale, 1));
+  transform-origin: bottom right;
+}
 
 .slot.pan-target {
   display: block;
@@ -403,11 +410,11 @@ canvas {
       </a>
     </slot>
   </div>
-  <div class="slot ar-button">
-    <slot name="ar-button">
+  <div class="slot ar-button1">
+    <slot name="ar-button1">
       <a id="default-ar-button" part="default-ar-button" class="fab"
           tabindex="2"
-          aria-label="View in your space">
+          aria-label="just delate and ar button can acc">
         ${Hl`
 <svg version="1.1" id="view_x5F_in_x5F_AR_x5F_icon"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px"
