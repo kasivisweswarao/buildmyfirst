@@ -550,7 +550,7 @@ canvas {
 }
         </a>
 	<a id="default-exit-webxr-ar-button1" href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link">FEEDBACK</a>
-        <a id="default-exit-webxr-ar-button1" part="default-exit-webxr-ar-button1"
+        
             tabindex="3"
             aria-label="Exit AR"
             aria-hidden="true">              
