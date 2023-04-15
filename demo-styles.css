@@ -24,9 +24,12 @@ model-viewer {
 
 .attribution {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-evenly;
   margin: 1em;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 .attribution h1 {
