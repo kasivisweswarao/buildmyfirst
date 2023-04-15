@@ -524,6 +524,7 @@ canvas {
           
     <div class="slot exit-webxr-ar-button">
       <slot name="exit-webxr-ar-button">
+        <a href="https://creator.plugxr.com/login">FEEDBACK</a>
         <a id="default-exit-webxr-ar-button" part="default-exit-webxr-ar-button"
             tabindex="3"
             aria-label="Exit AR"
