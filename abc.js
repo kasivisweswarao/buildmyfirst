@@ -393,7 +393,7 @@ canvas {
   justify-content: center;
   position: absolute;
   top: env(safe-area-inset-top, 16px);
-  right: 250px;
+  right: 350px;
   width: 40px;
   height: 40px;
   box-sizing: border-box;
@@ -520,12 +520,10 @@ canvas {
           <div class="bar" part="default-progress-bar"></div>
         </div>
       </slot>
-    </div>
-    href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link">FEEDBACK</a>      
+    </div>   
     <div class="slot exit-webxr-ar-button">
       <slot name="exit-webxr-ar-button">
-      <a id="default-exit-webxr-ar-button1" href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link">FEEDBACK</a>
-      <a id="default-exit-webxr-ar-button" part="default-exit-webxr-ar-button"
+      <a id="default-exit-webxr-ar-button1" href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link">FEEDBACK</a>      
             tabindex="3"
             aria-label="Exit AR"
             aria-hidden="true">              
