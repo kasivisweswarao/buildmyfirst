@@ -393,7 +393,7 @@ canvas {
   justify-content: center;
   position: absolute;
   top: env(safe-area-inset-top, 16px);
-  right: 16px;
+  right: 250px;
   width: 40px;
   height: 40px;
   box-sizing: border-box;
