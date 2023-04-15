@@ -393,9 +393,9 @@ canvas {
   justify-content: center;
   position: absolute;
   top: env(safe-area-inset-top, 16px);
-  right: 250px;
-  width: 80px;
-  height: 80px;
+  right: 16px;
+  width: 40px;
+  height: 40px;
   box-sizing: border-box;
 }
 #default-exit-webxr-ar-button > svg {
@@ -524,8 +524,45 @@ canvas {
           
     <div class="slot exit-webxr-ar-button">
       <slot name="exit-webxr-ar-button">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link">FEEDBACK</a>
-        
+      <a id="default-exit-webxr-ar-button1" href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link">FEEDBACK</a>
+      <a id="default-exit-webxr-ar-button" part="default-exit-webxr-ar-button"
+            tabindex="3"
+            aria-label="Exit AR"
+            aria-hidden="true">              
+          ${Kl`
+<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#000000">
+    <!-- NOTE(cdata): This SVG filter is a stop-gap until we can implement
+         support for dynamic re-coloring of UI components -->
+    <defs>
+      <filter id="drop-shadow" x="-100%" y="-100%" width="300%" height="300%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="1"/>
+        <feOffset dx="0" dy="0" result="offsetblur"/>
+        <feFlood flood-color="#000000"/>
+        <feComposite in2="offsetblur" operator="in"/>
+        <feMerge>
+          <feMergeNode/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+    <path filter="url(#drop-shadow)" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+    <path d="M0 0h24v24H0z" fill="none"/>
+</svg>`
+}
+        </a>
+        <a id="default-exit-webxr-ar-button1" part="default-exit-webxr-ar-button1"
+            tabindex="3"
+            aria-label="Exit AR"
+            aria-hidden="true">              
+          ${Kl`
+<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#000000">
+    <!-- NOTE(cdata): This SVG filter is a stop-gap until we can implement
+         support for dynamic re-coloring of UI components -->
+    <input type="button" onclick="window.location.href='https://www.w3docs.com';" value="w3docs" />
+    <path filter="url(#drop-shadow)" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+    <path d="M0 0h24v24H0z" fill="none"/>
+</svg>`
+}    
         </a>
       </slot>
     </div>
