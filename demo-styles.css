@@ -52,9 +52,9 @@ model-viewer {
 }
 
 .attribution img {
-  opacity: 0.5;
+  
   height: 2em;
-  color: #000000;
+ 
 }
 
 .attribution .cc {
