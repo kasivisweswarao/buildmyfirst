@@ -14,6 +14,7 @@ body {
   border-radius: 6px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
   overflow: hidden;
+  color: #000000;
 }
 
 model-viewer {
@@ -23,6 +24,7 @@ model-viewer {
 }
 
 .attribution {
+  color: #000000;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -30,7 +32,7 @@ model-viewer {
   align-content: center;
   flex-wrap: wrap;
   align-items: flex-end;
-  color: #000000;
+  
 }
 
 .attribution h1 {
