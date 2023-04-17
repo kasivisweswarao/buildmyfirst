@@ -30,6 +30,7 @@ model-viewer {
   align-content: center;
   flex-wrap: wrap;
   align-items: flex-end;
+  baground:#000000;
 }
 
 .attribution h1 {
