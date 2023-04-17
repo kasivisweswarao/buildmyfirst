@@ -8,7 +8,6 @@ body {
 
 #card {
   margin: 3em auto;
-  display: flex;
   flex-direction: column;
   max-width: 250px;
   border-radius: 6px;
@@ -27,7 +26,7 @@ model-viewer {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin: 1em;
+  
   align-content: center;
   flex-wrap: wrap;
   align-items: flex-end;
